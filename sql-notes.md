@@ -779,7 +779,6 @@ WHERE 100000000 <= (SELECT SUM(y.population) FROM world y WHERE x.continent = y.
 ```
 
 ###The JOIN operation
-http://sqlzoo.net/wiki/The_JOIN_operation
 
 ```
 SELECT player,teamid, mdate
