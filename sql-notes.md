@@ -1,7 +1,5 @@
 #SQL Notes
 
-##Source: http://techcitynews.com/2013/10/24/why-you-should-learn-some-sql/ 
-
 "Once you can write SQL there are literally no questions you cannot ask of your data."
 
 "When you use SQL to ask questions of a database that you control you can ask any question you want."
@@ -14,8 +12,6 @@ A simple query that gives me a list of users and their sign in accounts:
 select email, name, nickname, sign_in_count from people
 order by sign_in_count desc limit 200
 ```
-
-##Source: http://www.sqlteaching.com/
 
 **Create table:**
 
@@ -138,8 +134,6 @@ The below query sorts the same table by height_cm in descending order:
 ```
 SELECT * FROM friends_of_pickles ORDER BY height_cm DESC
 ```
-
-##Source: Code School http://campus.codeschool.com/courses/try-sql/contents
 
 ###Level 1
 
@@ -578,10 +572,6 @@ DROP COLUMN inventory;
 
 ```
 
-**Link to CodeSchool slides: http://courseware.codeschool.com/try_sql/trysql-slides.pdf**
-
-##Source - http://www.w3schools.com/sql/sql_join_left.asp
-
 **Left joins:**
 
 The LEFT JOIN keyword returns all rows from the left table (table1), with the matching rows in the right table (table2). The result is NULL in the right side when there is no match.
@@ -633,8 +623,6 @@ SELECT *
 FROM tablename;
 
 to show the entire contents of the table
-
-##Source: http://sqlzoo.net/wiki/SQL_Tutorial
 
 ###Select basics 
 
